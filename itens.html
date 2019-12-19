@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Lista e GET</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <form>
+                <h3>Adicionar Itens</h3>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Descrição:</label>
+                    <input type="text" class="form-control" id="des" placeholder="Descrição ...">
+                    <label for="exampleInputEmail1">Preço:</label>
+                    <input type="text" class="form-control" id="valor" placeholder="0.00">
+                </div>
+                <button id="Inserir" type="button" class="btn btn-primary">Adicionar</button>
+                <button id="Atualizar" type="button" class="btn btn-primary">Atualizar</button>
+            </form>
+        </div>
+        <hr>
+        <h2>Lista de Itens</h2>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <ul id="list" class="list-group">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/getItens.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+
+</html>
